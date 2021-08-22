@@ -25,7 +25,7 @@ function randomBgClr() {
 
 function startRandomBgClr() {
   refs.start.disabled = true
-  refs.start.classList.toggle('active')
+  refs.start.classList.add('active')
   id = setInterval(randomBgClr, 1000);
 };
 function stopRandomBgClr() {
